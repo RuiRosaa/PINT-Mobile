@@ -12,6 +12,13 @@ import androidx.navigation.ui.setupWithNavController
 import com.example.pint_eh_desta.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
+
+
+
+
+
+
+
     //override val defaultViewModelProviderFactory: ViewModelProvider.Factory
     //  get() = ViewModelProvider.AndroidViewModelFactory.getInstance(application)
     private lateinit var binding: ActivityMainBinding

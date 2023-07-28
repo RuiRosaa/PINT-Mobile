@@ -62,7 +62,7 @@ class DashboardFragment : Fragment() {
 
         // Iniciar a execução da tarefa em segundo plano
         handler.post(runnable)
-       // setupRecyclerViewOportunidades()
+        // setupRecyclerViewOportunidades()
         //setupRecyclerViewReunioes()
         //setupRecyclerViewEquipas()
         //setupRecyclerViewCanal()
@@ -74,40 +74,40 @@ class DashboardFragment : Fragment() {
         handler.removeCallbacks(runnable)
         _binding = null
     }
-/*
-    private fun setupRecyclerViewOportunidades() {
-        val recyclerViewOportunidades = binding.recyclerViewOportunidades
-        // Configurar o RecyclerView com o adapter e o layout manager desejados
-        recyclerViewOportunidades.adapter = OportunidadesAdapter()
-        recyclerViewOportunidades.layoutManager = LinearLayoutManager(requireContext())
-        // Adicionar dados ao adapter, se necessário
-    }
+    /*
+        private fun setupRecyclerViewOportunidades() {
+            val recyclerViewOportunidades = binding.recyclerViewOportunidades
+            // Configurar o RecyclerView com o adapter e o layout manager desejados
+            recyclerViewOportunidades.adapter = OportunidadesAdapter()
+            recyclerViewOportunidades.layoutManager = LinearLayoutManager(requireContext())
+            // Adicionar dados ao adapter, se necessário
+        }
 
-    private fun setupRecyclerViewReunioes() {
-        val recyclerViewReunioes = binding.recyclerViewReunioes
-        // Configurar o RecyclerView com o adapter e o layout manager desejados
-        recyclerViewReunioes.adapter = ReunioesAdapter()
-        recyclerViewReunioes.layoutManager = LinearLayoutManager(requireContext())
-        // Adicionar dados ao adapter, se necessário
-    }
+        private fun setupRecyclerViewReunioes() {
+            val recyclerViewReunioes = binding.recyclerViewReunioes
+            // Configurar o RecyclerView com o adapter e o layout manager desejados
+            recyclerViewReunioes.adapter = ReunioesAdapter()
+            recyclerViewReunioes.layoutManager = LinearLayoutManager(requireContext())
+            // Adicionar dados ao adapter, se necessário
+        }
 
-    private fun setupRecyclerViewEquipas() {
-        val recyclerViewEquipas = binding.recyclerViewEquipas
-        // Configurar o RecyclerView com o adapter e o layout manager desejados
-        recyclerViewEquipas.adapter = EquipasAdapter()
-        recyclerViewEquipas.layoutManager = LinearLayoutManager(requireContext())
-        // Adicionar dados ao adapter, se necessário
-    }
+        private fun setupRecyclerViewEquipas() {
+            val recyclerViewEquipas = binding.recyclerViewEquipas
+            // Configurar o RecyclerView com o adapter e o layout manager desejados
+            recyclerViewEquipas.adapter = EquipasAdapter()
+            recyclerViewEquipas.layoutManager = LinearLayoutManager(requireContext())
+            // Adicionar dados ao adapter, se necessário
+        }
 
-    private fun setupRecyclerViewCanal() {
-        val recyclerViewCanal = binding.recyclerViewCanal
-        // Configurar o RecyclerView com o adapter e o layout manager desejados
-        recyclerViewCanal.adapter = CanalAdapter()
-        recyclerViewCanal.layoutManager = LinearLayoutManager(requireContext())
-        // Adicionar dados ao adapter, se necessário
+        private fun setupRecyclerViewCanal() {
+            val recyclerViewCanal = binding.recyclerViewCanal
+            // Configurar o RecyclerView com o adapter e o layout manager desejados
+            recyclerViewCanal.adapter = CanalAdapter()
+            recyclerViewCanal.layoutManager = LinearLayoutManager(requireContext())
+            // Adicionar dados ao adapter, se necessário
+        }
     }
-}
-*/
+    */
 
 }
 
