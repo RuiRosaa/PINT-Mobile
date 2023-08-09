@@ -1,0 +1,6 @@
+<resources>
+<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <!-- Defina windowActionBar como false para usar uma Toolbar -->
+    <item name="windowActionBar">true</item>
+</style>
+</resources>
