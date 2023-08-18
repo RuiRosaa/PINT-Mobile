@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="business_areas">
+        <item>Genérico</item>
+        <item>Software</item>
+        <item>Consultoria</item>
+        <item>Redes</item>
+        <item>Financeiro</item>
+    </string-array>
+</resources>
