@@ -1,0 +1,77 @@
+<!-- client_detail.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/clienteDetailsTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Detalhes:"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descrição:"
+        android:layout_below="@id/clienteDetailsTitle"
+        android:layout_margin="16dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textOtherInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Outras Informações:"
+        android:layout_below="@id/textDescription"
+        android:layout_margin="16dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textAreaNegocio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textOtherInfo"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Área de Negócio:"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textState"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estado"
+        android:layout_below="@id/textAreaNegocio"
+        android:layout_margin="16dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textDataCriado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Criado em:"
+        android:layout_below="@id/textState"
+        android:layout_margin="16dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voltar"
+        android:layout_below="@id/textDataCriado"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#0066FF"
+        android:layout_marginTop="24dp" />
+
+
+
+</RelativeLayout>
