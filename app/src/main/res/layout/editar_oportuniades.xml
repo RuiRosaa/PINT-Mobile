@@ -1,4 +1,4 @@
-    <!-- create_idea.xml -->
+<!-- create_idea.xml -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -7,17 +7,17 @@
     android:padding="16dp">
 
     <TextView
-        android:id="@+id/textDescription"
+        android:id="@+id/textDescriptionOp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Descrição:"
         android:textStyle="bold" />
 
     <EditText
-        android:id="@+id/editDescription"
+        android:id="@+id/editDescriptionOp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Descrição da ideia" />
+        android:hint="Descrição da oportunidade" />
 
     <TextView
         android:id="@+id/textDetails"
@@ -28,16 +28,42 @@
         android:textStyle="bold" />
 
     <EditText
-        android:id="@+id/editDetails"
+        android:id="@+id/editDetailsOp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Detalhes da ideia" />
+        android:hint="Detalhes da oportunidade" />
+    <TextView
+        android:id="@+id/textTipoProjetoOp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tipo de Projeto:"
+        android:layout_marginTop="16dp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/editTipoProjetoOp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tipo de projeto da oportunidade" />
 
     <TextView
-        android:id="@+id/textBusinessArea"
+        android:id="@+id/textAreaNegocioOp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Área de Negócio:"
+        android:layout_marginTop="16dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editAreaNegocioOp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Área de negócio da oportunidade" />
+
+    <TextView
+        android:id="@+id/textOpCliente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estado:"
         android:layout_marginTop="16dp"
         android:textStyle="bold" />
 
@@ -46,19 +72,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Selecione a área de negócio"
-        android:entries="@array/business_areas" />
+        android:entries="@array/estados" />
 
     <Button
-        android:id="@+id/btnRefreshI"
+        android:id="@+id/btnRefreshOp"
         android:layout_width="128dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="415dp"
-        android:layout_marginEnd="37dp"
+        android:layout_below="@id/spinnerBusinessArea"
+        android:layout_centerHorizontal="true"
         android:backgroundTint="#0066FF"
-        android:margin="16dp"
-        android:text="Atualizar" />
+        android:text="Guardar" />
 
 
 </LinearLayout>

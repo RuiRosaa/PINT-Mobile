@@ -7,4 +7,15 @@
         <item>Redes</item>
         <item>Financeiro</item>
     </string-array>
+
+    <string-array name="estados">
+        <item>Criado</item>
+        <item>Em Curso</item>
+        <item>Em Standby</item>
+        <item>Em Análise</item>
+        <item>Fechado</item>
+        <item>Concluído</item>
+        <item>Arquivado</item>
+        <item>Rejeitado</item>
+    </string-array>
 </resources>
