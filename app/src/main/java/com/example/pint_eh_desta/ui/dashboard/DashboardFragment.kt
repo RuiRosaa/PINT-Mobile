@@ -11,8 +11,9 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
+import app.navdrawer.databinding.FragmentDashboardBinding
 import com.example.pint_eh_desta.GlobalVariables
-import com.example.pint_eh_desta.databinding.FragmentDashboardBinding
+
 
 class DashboardFragment : Fragment() {
     private var _binding: FragmentDashboardBinding? = null

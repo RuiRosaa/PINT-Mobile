@@ -1,4 +1,4 @@
-package com.example.pint_eh_desta.ui.dashboard
+package app.navdrawer.dashboard
 
 import android.content.Context
 import android.os.Bundle

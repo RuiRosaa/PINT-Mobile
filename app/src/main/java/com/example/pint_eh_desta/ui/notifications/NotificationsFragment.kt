@@ -1,4 +1,4 @@
-package com.example.pint_eh_desta.ui.notifications
+package com.example.pint_eh_desta.databinding.FragmentNotificationsBinding
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,7 +7,9 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import com.example.pint_eh_desta.databinding.FragmentNotificationsBinding
+import app.navdrawer.databinding.FragmentNotificationsBinding
+import com.example.pint_eh_desta.ui.notifications.NotificationsViewModel
+
 
 class NotificationsFragment : Fragment() {
 

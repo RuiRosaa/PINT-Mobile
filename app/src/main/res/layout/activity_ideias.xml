@@ -25,7 +25,7 @@
         android:layout_marginTop="415dp"
         android:layout_marginEnd="37dp"
         android:backgroundTint="#0066FF"
-        android:margin="16dp"
+        android:layout_marginStart="16dp"
         android:text="Atualizar" />
 
     <Button
@@ -37,7 +37,6 @@
         android:layout_marginStart="31dp"
         android:layout_marginTop="413dp"
         android:backgroundTint="#0066FF"
-        android:margin="16dp"
         android:text="Nova Ideia" />
 
     <ListView

@@ -9,7 +9,9 @@ import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
-import com.example.pint_eh_desta.databinding.ActivityMainBinding
+import app.navdrawer.R
+import app.navdrawer.databinding.ActivityMainBinding
+
 
 class MainActivity : AppCompatActivity() {
 
@@ -31,7 +33,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
         // Verificar o estado do login
 
-        val navView: BottomNavigationView = binding.navView
+        val navView: BottomNavigationView = binding.lownavView
 
         val navController = findNavController(R.id.nav_host_fragment_activity_main)
         // Passing each menu ID as a set of Ids because each

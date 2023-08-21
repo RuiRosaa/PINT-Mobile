@@ -5,9 +5,9 @@ import android.os.Bundle
 import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.example.pint_eh_desta.R
+import app.navdrawer.R
 import com.google.android.material.button.MaterialButton
-import com.google.android.material.textfield.TextInputEditText
+
 
 class SignupActivity : AppCompatActivity() {
 

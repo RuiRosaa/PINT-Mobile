@@ -1,4 +1,4 @@
-package com.example.pint_eh_desta.ui.ui.home
+package app.navdrawer.home
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

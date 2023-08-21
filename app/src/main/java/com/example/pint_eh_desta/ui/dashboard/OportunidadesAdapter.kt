@@ -3,7 +3,8 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.pint_eh_desta.R
+import app.navdrawer.R
+
 
 class OportunidadesAdapter(private val oportunidadesList: List<String>) : RecyclerView.Adapter<OportunidadesAdapter.OportunidadeViewHolder>() {
 

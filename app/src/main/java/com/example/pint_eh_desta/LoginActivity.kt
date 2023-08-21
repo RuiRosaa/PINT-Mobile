@@ -10,6 +10,7 @@ import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import app.navdrawer.R
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions
 import io.jsonwebtoken.Claims
 import io.jsonwebtoken.Jwts

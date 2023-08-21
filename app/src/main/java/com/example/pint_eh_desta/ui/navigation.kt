@@ -11,8 +11,10 @@ import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.appcompat.app.AppCompatActivity
-import com.example.pint_eh_desta.R
-import com.example.pint_eh_desta.databinding.ActivityNavigationBinding
+import app.navdrawer.R
+import app.navdrawer.databinding.ActivityNavigationBinding
+
+
 
 class navigation : AppCompatActivity() {
 
