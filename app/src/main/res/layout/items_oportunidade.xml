@@ -1,6 +1,53 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<!-- activity_main.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/clienteDetailsTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Lista de Oportunidaes:"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <ListView
+        android:id="@+id/clientesListView"
+        android:layout_width="match_parent"
+        android:layout_height="469dp"
+        android:layout_marginTop="140dp" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <Button
+        android:id="@+id/btnRefresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="615dp"
+        android:layout_marginEnd="37dp"
+        android:backgroundTint="#0066FF"
+        android:layout_marginStart="16dp"
+        android:text="Atualizar" />
+
+    <Button
+        android:id="@+id/btnCreate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="615dp"
+        android:backgroundTint="#0066FF"
+        android:text="Nova Oportunidade" />
+
+    <ListView
+        android:id="@+id/clientListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnRefresh"
+        android:layout_above="@id/btnCreate" />
+
+</RelativeLayout>
