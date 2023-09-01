@@ -10,7 +10,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
-import com.instamobile.kotlinlogin.R
+import com.example.hardtinsa.R
 
 
 class IdeasAdapter(private val ideasList: MutableList<Idea>) :

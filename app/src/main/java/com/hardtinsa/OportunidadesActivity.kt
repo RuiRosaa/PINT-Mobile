@@ -16,13 +16,10 @@ import androidx.recyclerview.widget.RecyclerView
 import com.android.volley.Request
 import com.android.volley.toolbox.JsonObjectRequest
 import com.android.volley.toolbox.Volley
+import com.example.hardtinsa.R
 import com.google.android.material.bottomnavigation.BottomNavigationView
-import com.google.android.material.navigation.NavigationView
-import com.instamobile.kotlinlogin.R
-import kotlinx.android.synthetic.main.activity_ideia_item.idea_image
 import org.json.JSONException
 import org.json.JSONObject
-import java.util.concurrent.Executors
 
 
 class OportunidadesActivity : BaseActivity() {

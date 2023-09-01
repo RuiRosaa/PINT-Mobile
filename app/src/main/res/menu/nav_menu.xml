@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    android:theme="@style/AppTheme"
+
+    >
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_Dashboard"
+            android:icon="@drawable/baseline_home_24"
+            android:title="Dashboard"/>
+
+        <item
+            android:id="@+id/nav_Clientes"
+            android:icon="@drawable/baseline_groups_24"
+            android:title="Clientes"/>
+
+
+        <item
+            android:id="@+id/nav_Ideias"
+            android:icon="@drawable/baseline_lightbulb_24"
+            android:title="Ideias"/>
+
+        <item
+            android:id="@+id/nav_Oportunidades"
+            android:icon="@drawable/baseline_assignment_24"
+            android:title="Oportunidades"/>
+
+        <item
+            android:id="@+id/nav_Contactos"
+            android:icon="@drawable/baseline_email_24"
+            android:title="Contactos"/>
+
+        <item
+            android:id="@+id/nav_Vagas"
+            android:icon="@drawable/baseline_work_242223"
+            android:title="Vagas"/>
+
+        <item
+            android:id="@+id/nav_Beneficios"
+            android:icon="@drawable/baseline_discount_24"
+            android:title="Beneficios"/>
+
+        <item
+            android:id="@+id/nav_Calendario"
+            android:icon="@drawable/baseline_calendar_month_24"
+            android:title="Calendario"/>
+
+        <item
+            android:id="@+id/nav_LogOut"
+            android:icon="@drawable/baseline_logout_24"
+            android:title="LogOut"/>
+
+
+
+
+    </group>
+
+</menu>

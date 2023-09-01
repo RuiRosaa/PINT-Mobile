@@ -5,7 +5,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:background="@mipmap/login_1_foreground"
-    tools:context="com.sft4all.VerifyEmail">
+    tools:context="com.hardtinsa.VerifyEmail">
 
     <View
         android:id="@+id/view"

@@ -1,10 +1,10 @@
 package com.hardtinsa
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
-import com.instamobile.kotlinlogin.R
+import androidx.appcompat.app.AppCompatActivity
+import com.example.hardtinsa.R
 
 
 class PasswordChanged : AppCompatActivity() {

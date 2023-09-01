@@ -1,12 +1,12 @@
 package com.hardtinsa
 
+//import com.instamobile.kotlinlogin.R
 import android.content.Context
 import android.content.Intent
 import android.graphics.Color
 import android.net.ConnectivityManager
 import android.net.NetworkCapabilities
 import android.os.Build
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.SpannableString
 import android.text.Spanned
@@ -18,13 +18,11 @@ import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
+import androidx.appcompat.app.AppCompatActivity
 import com.android.volley.Request
 import com.android.volley.toolbox.JsonObjectRequest
 import com.android.volley.toolbox.Volley
-import com.instamobile.kotlinlogin.R
-import kotlinx.android.synthetic.main.activity_sign_up.suEmail
-import kotlinx.android.synthetic.main.activity_sign_up.suPassword2
-import kotlinx.android.synthetic.main.activity_sign_up.suUsername
+import com.example.hardtinsa.R
 import org.json.JSONObject
 
 class SignUP : AppCompatActivity() {

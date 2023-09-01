@@ -26,10 +26,10 @@ import com.android.volley.toolbox.JsonObjectRequest
 import com.android.volley.toolbox.Volley
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.android.material.navigation.NavigationView
-import com.sft4all.BeneficiosActivity
-import com.sft4all.CalendarioActivity
-import com.sft4all.ClientesActivity
-import com.instamobile.kotlinlogin.R
+import com.hardtinsa.BeneficiosActivity
+import com.hardtinsa.CalendarioActivity
+import com.hardtinsa.ClientesActivity
+//import com.instamobile.kotlinlogin.R
 import lecho.lib.hellocharts.listener.ColumnChartOnValueSelectListener
 import lecho.lib.hellocharts.model.Axis
 import lecho.lib.hellocharts.model.AxisValue

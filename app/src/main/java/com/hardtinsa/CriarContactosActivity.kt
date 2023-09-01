@@ -1,10 +1,10 @@
 package com.hardtinsa
 
+//import com.instamobile.kotlinlogin.R
 import android.annotation.SuppressLint
 import android.content.ContentValues
 import android.content.Intent
 import android.database.sqlite.SQLiteDatabase
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.ArrayAdapter
@@ -15,8 +15,8 @@ import android.widget.Spinner
 import android.widget.Toast
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.core.view.GravityCompat
+import com.example.hardtinsa.R
 import com.google.android.material.bottomnavigation.BottomNavigationView
-import com.instamobile.kotlinlogin.R
 import java.text.SimpleDateFormat
 import java.util.Date
 

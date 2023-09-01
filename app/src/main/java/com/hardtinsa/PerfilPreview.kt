@@ -1,26 +1,18 @@
 package com.hardtinsa
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import android.view.View
 import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.core.view.GravityCompat
-import androidx.drawerlayout.widget.DrawerLayout
 import com.android.volley.Request
-import com.android.volley.toolbox.JsonArrayRequest
 import com.android.volley.toolbox.JsonObjectRequest
 import com.android.volley.toolbox.Volley
+import com.example.hardtinsa.R
 import com.google.android.material.bottomnavigation.BottomNavigationView
-import com.google.android.material.navigation.NavigationView
-import com.sft4all.BeneficiosActivity
-import com.sft4all.CalendarioActivity
-import com.sft4all.ClientesActivity
-import com.instamobile.kotlinlogin.R
 import org.json.JSONException
 
 class PerfilPreview : BaseActivity() {

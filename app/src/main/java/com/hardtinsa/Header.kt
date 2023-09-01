@@ -1,10 +1,8 @@
 package com.hardtinsa
 
-import android.content.Intent
 import android.os.Bundle
-import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import com.instamobile.kotlinlogin.R
+import com.example.hardtinsa.R
 
 class Header : AppCompatActivity() {
 

@@ -1,6 +1,5 @@
 package com.hardtinsa
 
-import SearchResultAdapter
 import android.annotation.SuppressLint
 import android.app.Activity
 import android.content.ContentValues
@@ -19,7 +18,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.android.volley.Request
 import com.android.volley.toolbox.JsonObjectRequest
 import com.android.volley.toolbox.Volley
-import com.instamobile.kotlinlogin.R
+import com.example.hardtinsa.R
 import org.json.JSONException
 
 class UtlizadorSearchBox : AppCompatActivity() {

@@ -6,7 +6,9 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.instamobile.kotlinlogin.R
+import com.example.hardtinsa.R
+
+//import com.instamobile.kotlinlogin.R
 
 class ClientesAdapter(private val clientesList: MutableList<Cliente>) :
     RecyclerView.Adapter<ClientesAdapter.ClienteViewHolder>() {

@@ -49,6 +49,7 @@ android {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
         }
     }
+
 }
 
 dependencies {
@@ -73,9 +74,16 @@ dependencies {
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
     implementation ("com.squareup.okhttp3:okhttp:3.10.0")
-    implementation ("com.instamobile:some-library-name:+")
+    //implementation ("com.instamobile:some-library-name:+")
     implementation ("org.jetbrains.kotlin:kotlin-stdlib:1.6.0")
     implementation ("com.facebook.android:facebook-android-sdk:12.0.0")
+    implementation ("joda-time:joda-time:2.10.10")
+    implementation ("com.google.android.gms:play-services-auth:20.0.0")
+    implementation ("com.google.android.gms:play-services-auth-api-phone:20.0.0")
+    implementation ("com.google.android.gms:play-services-auth-base:20.0.0")
+    implementation ("com.github.lecho:hellocharts-library:1.5.8@aar")
+
+
 
 
 

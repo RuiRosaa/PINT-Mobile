@@ -17,9 +17,10 @@ import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.GravityCompat
 import androidx.drawerlayout.widget.DrawerLayout
+import com.example.hardtinsa.R
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.android.material.navigation.NavigationView
-import com.instamobile.kotlinlogin.R
+//import com.instamobile.kotlinlogin.R
 import java.util.Date
 import java.text.SimpleDateFormat
 

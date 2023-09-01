@@ -21,8 +21,9 @@ import com.android.volley.Request
 import com.android.volley.Response
 import com.android.volley.toolbox.JsonArrayRequest
 import com.android.volley.toolbox.JsonObjectRequest
-import com.sft4all.Globals.token
+import com.hardtinsa.Globals.token
 import com.android.volley.toolbox.Volley
+import com.example.hardtinsa.R
 import com.facebook.AccessToken
 import com.facebook.CallbackManager
 import com.facebook.FacebookCallback
@@ -34,8 +35,8 @@ import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInClient
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions
 import com.google.android.gms.common.api.ApiException
-import com.instamobile.kotlinlogin.R
-import com.sft4all.Globals.apiurl
+//import com.instamobile.kotlinlogin.R
+import com.hardtinsa.Globals.apiurl
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.coroutines.DelicateCoroutinesApi
 import kotlinx.coroutines.Dispatchers

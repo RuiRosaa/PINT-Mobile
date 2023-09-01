@@ -2,7 +2,6 @@ package com.hardtinsa
 
 import android.content.ContentValues
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.Button
@@ -14,8 +13,8 @@ import androidx.core.view.GravityCompat
 import com.android.volley.Request
 import com.android.volley.toolbox.JsonObjectRequest
 import com.android.volley.toolbox.Volley
+import com.example.hardtinsa.R
 import com.google.android.material.bottomnavigation.BottomNavigationView
-import com.instamobile.kotlinlogin.R
 import org.json.JSONException
 
 class Oportunidades_detalhe : BaseActivity() {

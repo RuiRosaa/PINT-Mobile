@@ -13,7 +13,7 @@ import androidx.drawerlayout.widget.DrawerLayout
 import com.google.android.material.navigation.NavigationView
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.instamobile.kotlinlogin.R
+//import com.instamobile.kotlinlogin.R
 import android.content.Context
 import android.database.sqlite.SQLiteDatabase
 import android.net.ConnectivityManager

@@ -3,9 +3,10 @@ package com.hardtinsa
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.instamobile.kotlinlogin.R
+import com.example.hardtinsa.R
+
+//import com.instamobile.kotlinlogin.R
 
 class Oportuni_ContactosAdapter(private val contactosList: MutableList<Contacto>) : RecyclerView.Adapter<Oportuni_ContactosAdapter.ContactoViewHolder>() {
 

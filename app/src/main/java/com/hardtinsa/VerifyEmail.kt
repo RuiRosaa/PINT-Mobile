@@ -12,7 +12,6 @@ import android.text.Spanned
 import android.text.style.ForegroundColorSpan
 import android.util.Log
 import android.view.View
-
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
@@ -22,7 +21,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.android.volley.Request
 import com.android.volley.toolbox.JsonObjectRequest
 import com.android.volley.toolbox.Volley
-import com.instamobile.kotlinlogin.R
+import com.example.hardtinsa.R
 import org.json.JSONObject
 
 class VerifyEmail : AppCompatActivity() {

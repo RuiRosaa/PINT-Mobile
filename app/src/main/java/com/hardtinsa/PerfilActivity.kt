@@ -1,9 +1,9 @@
 package com.hardtinsa
 
+//import com.instamobile.kotlinlogin.R
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
-import android.view.MenuItem
 import android.view.View
 import android.widget.Button
 import android.widget.EditText
@@ -11,19 +11,11 @@ import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.ActionBarDrawerToggle
-import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.GravityCompat
-import androidx.drawerlayout.widget.DrawerLayout
 import com.android.volley.Request
-import com.android.volley.Response
 import com.android.volley.toolbox.JsonObjectRequest
 import com.android.volley.toolbox.Volley
-import com.google.android.material.navigation.NavigationView
-import com.hardtinsa.BeneficiosActivity
-import com.hardtinsa.CalendarioActivity
-import com.hardtinsa.ClientesActivity
-import com.instamobile.kotlinlogin.R
-import com.google.android.material.bottomnavigation.BottomNavigationView
+import com.example.hardtinsa.R
 import org.json.JSONObject
 
 class PerfilActivity : BaseActivity() {

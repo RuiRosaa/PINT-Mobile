@@ -1,26 +1,21 @@
 package com.hardtinsa
 
+//import com.instamobile.kotlinlogin.R
 import android.annotation.SuppressLint
 import android.content.Intent
 import android.database.sqlite.SQLiteDatabase
 import android.os.Build
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.widget.ArrayAdapter
 import android.widget.Button
 import android.widget.ImageView
 import android.widget.ListView
-import android.widget.TextView
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.core.view.GravityCompat
-import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.hardtinsa.R
 import com.google.android.material.bottomnavigation.BottomNavigationView
-import com.instamobile.kotlinlogin.R
-import java.time.LocalDateTime
-import java.time.format.DateTimeFormatter
 
 class Oportunidade_Contactos: BaseActivity() {
     private lateinit var db: BaseDeDados

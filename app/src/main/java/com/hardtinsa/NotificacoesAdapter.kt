@@ -7,7 +7,9 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.instamobile.kotlinlogin.R
+import com.example.hardtinsa.R
+
+//import com.instamobile.kotlinlogin.R
 
 class NotificacoesAdapter(private val notificacoesList: MutableList<Notificacoes>) :
     RecyclerView.Adapter<NotificacoesAdapter.NotificacoesViewHolder>() {
