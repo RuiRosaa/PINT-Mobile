@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/perfilFragment">
+
+    <fragment
+        android:id="@+id/perfilFragment"
+        android:name="com.sft4all.PerfilActivity"
+        android:label="fragment_perfil"
+        tools:layout="@layout/activity_perfil">
+
+        <action
+            android:id="@+id/action_perfilFragment_to_mainPage"
+            app:destination="@id/mainPage" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/beneficiosFragment"
+        android:name="com.sft4all.BeneficiosActivity"
+        android:label="BeneficiosFragment"
+        tools:layout="@layout/activity_beneficios">
+    </fragment>
+
+    <fragment
+        android:id="@+id/calendarioFragment"
+        android:name="com.sft4all.CalendarioActivity"
+        android:label="CalendarioFragment"
+        tools:layout="@layout/activity_calendario">
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/ideiasFragment"
+        android:name="com.sft4all.IdeiasActivity"
+        android:label="IdeiasFragment"
+        tools:layout="@layout/activity_ideias">
+        >
+    </fragment>
+
+    <fragment
+        android:id="@+id/notificacoesFragment"
+        android:name="com.sft4all.NotificacoesActivity"
+        android:label="NotificacoesFragment"
+        tools:layout="@layout/activity_notificacoes">
+    </fragment>
+
+    <fragment
+        android:id="@+id/oportunidadesFragment"
+        android:name="com.sft4all.OportunidadesActivity"
+        android:label="OportunidadesFragment"
+        tools:layout="@layout/activity_oportunidades">
+        >
+    </fragment>
+
+    <fragment
+        android:id="@+id/vagasFragment"
+        android:name="com.sft4all.VagasActivity"
+        android:label="VagasFragment"
+        tools:layout="@layout/activity_vagas">
+    </fragment>
+
+
+    <activity
+        android:id="@+id/mainPage"
+        android:name="com.sft4all.MainPage"
+        android:label="MainPage"
+        tools:layout="@layout/activity_main_page"/>
+
+    <activity
+        android:id="@+id/verNoti"
+        android:name="com.sft4all.VerNotificacoes"
+        android:label="VerNotificacoes"
+        tools:layout="@layout/ver_notificacoes"/>
+
+    <activity
+        android:id="@+id/clientesFragment"
+        android:name="com.sft4all.ClientesActivity"
+        android:label="ClientesActivity"
+        tools:layout="@layout/activity_clientes"/>
+
+    <activity
+        android:id="@+id/BaseActivity"
+        android:name="com.sft4all.BaseActivity"
+        android:label="BaseActivity"
+        tools:layout="@layout/base_activity"/>
+</navigation>

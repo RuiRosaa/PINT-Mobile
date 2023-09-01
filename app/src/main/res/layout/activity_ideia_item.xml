@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="3dp">
+
+
+    <ImageView
+        android:id="@+id/idea_edit"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="320dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/baseline_edit_24"
+        android:textColor="#fff" />
+
+    <ImageView
+        android:id="@+id/vaga_item"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="-20dp"
+        android:src="@drawable/baseline_lightbulb_242"
+        android:textColor="#fff" />
+
+    <ImageView
+        android:id="@+id/idea_image"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="-20dp"
+        android:src="@drawable/baseline_remove_red_eye_24"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/idea_delete"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="360dp"
+        android:layout_marginTop="-20dp"
+        android:background="@drawable/baseline_delete_forever_24"
+        android:onClick="onDeleteButtonClick"
+        android:textColor="#fff" />
+
+    <TextView
+        android:id="@+id/idea_description"
+        android:layout_width="233dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="-20dp"
+        android:textSize="14sp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>

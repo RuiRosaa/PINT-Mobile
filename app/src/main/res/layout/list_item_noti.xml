@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="3dp">
+
+    <ImageView
+        android:id="@+id/noti_image1"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="320dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/baseline_remove_red_eye_24"
+        android:textColor="#fff" />
+
+    <ImageView
+        android:id="@+id/vaga_item"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="-20dp"
+        android:src="@drawable/baseline_notifications_24"
+        android:textColor="#fff" />
+
+    <TextView
+        android:id="@+id/noti_description1"
+        android:layout_width="233dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="-20dp"
+        android:textSize="14sp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sft4all.MainPage">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/frameLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintEnd_toStartOf="parent"
+            >
+
+            <Button
+                android:id="@+id/btn_open_menu"
+                android:layout_width="46dp"
+                android:layout_marginTop="10dp"
+                android:layout_height="37dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/baseline_density_small_24"
+                android:onClick="openMenu" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="53dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/rectangle1" />
+
+            <ImageView
+                android:id="@+id/internet_status"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginStart="340dp"
+                android:layout_marginTop="13dp"
+                android:src="@drawable/baseline_wifi_off_24"
+                android:contentDescription="Internet Status" />
+
+            <TextView
+                android:id="@+id/text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="90dp"
+                android:textColorHint="@color/com_facebook_blue"
+                android:layout_marginTop="11dp"
+                android:text="Calendário"
+                android:textColor="@android:color/white"
+                android:textSize="23sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnListView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="55dp"
+                android:layout_marginLeft="45dp"
+                android:paddingBottom="5dp"
+                android:text="Lista" />
+
+            <Button
+                android:id="@+id/btnAtualiza"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="55dp"
+                android:layout_gravity="center_horizontal"
+                android:drawableLeft="@drawable/baseline_refresh_24"
+                android:paddingBottom="5dp"
+                android:text="Atualizar"
+                />
+
+            <Button
+                android:id="@+id/btnCriar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="55dp"
+                android:layout_marginStart="280dp"
+                android:paddingBottom="5dp"
+                android:text="Criar" />
+
+            <Button
+                android:id="@+id/btnEntrevista"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="100dp"
+                android:paddingBottom="5dp"
+                android:text="Entrevistas Tecnicas"
+                android:visibility="invisible" />
+
+            <CalendarView
+                android:id="@+id/calendarView"
+                android:layout_width="match_parent"
+                android:layout_height="656dp"
+                android:layout_marginTop="130dp"
+                android:layout_marginBottom="16dp"
+                android:layout_weight="1"
+                app:layout_constraintBottom_toBottomOf="@+id/frameLayout"
+                app:layout_constraintTop_toTopOf="@+id/frameLayout" />
+
+            <ListView
+                android:id="@+id/listView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="460dp"
+                android:layout_marginStart="60dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginBottom="80dp"
+                android:layout_below="@id/calendarView" />
+
+        </FrameLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <include layout="@layout/bottom_nav" />
+
+
+    <com.google.android.material.navigation.NavigationView
+        app:theme="@style/ActionButton"
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:headerLayout="@layout/nav_header"
+        app:menu="@menu/nav_menu"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        />
+
+</androidx.drawerlayout.widget.DrawerLayout>

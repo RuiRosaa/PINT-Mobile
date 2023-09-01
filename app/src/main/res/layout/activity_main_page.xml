@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/AppTheme"
+    tools:context="com.sft4all.MainPage">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/frameLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintEnd_toStartOf="parent"
+            >
+
+            <Button
+                android:id="@+id/btn_open_menu"
+                android:layout_width="46dp"
+                android:layout_marginTop="10dp"
+                android:layout_height="37dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/baseline_density_small_24"
+                android:onClick="openMenu" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="53dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/rectangle1" />
+
+            <ImageView
+                android:id="@+id/internet_status"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginStart="340dp"
+                android:layout_marginTop="13dp"
+                android:src="@drawable/baseline_wifi_off_24"
+                android:contentDescription="Internet Status" />
+
+            <TextView
+                android:id="@+id/text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="90dp"
+                android:textColorHint="@color/com_facebook_blue"
+                android:layout_marginTop="11dp"
+                android:text="Dashboard"
+                android:textColor="@android:color/white"
+                android:textSize="23sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/bemvindo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp"
+                android:layout_marginStart="155dp"
+                android:textSize="25sp"
+                android:textColor="#354E97"
+                android:text=""/>
+
+            <TextView
+                android:id="@+id/user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="110dp"
+                android:layout_marginStart="160dp"
+                android:textSize="18sp"
+                android:textColor="#354E97" />
+
+            <TextView
+                android:id="@+id/tiposnegocio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="270dp"
+                android:textSize="17sp"
+                android:text=" % Projetos por Negócio"
+                android:textColor="#354E97" />
+
+            <lecho.lib.hellocharts.view.PieChartView
+                android:id="@+id/chart"
+                android:layout_width="286dp"
+                android:layout_height="181dp"
+                android:layout_marginStart="-40dp"
+                android:layout_marginTop="270dp"
+                android:padding="20dp" />
+
+            <lecho.lib.hellocharts.view.ColumnChartView
+                android:id="@+id/chart2"
+                android:layout_width="189dp"
+                android:layout_height="136dp"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="460dp" />
+
+            <TextView
+                android:id="@+id/selectedDescricaoTextView"
+                android:layout_width="155dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="190dp"
+                android:layout_marginTop="500dp" />
+
+            <TextView
+                android:id="@+id/vagascandit"
+                android:layout_width="185dp"
+                android:layout_height="wrap_content"
+                android:text="Vagas com + candidatos"
+                android:textSize="16sp"
+                android:textColor="#354E97"
+                android:layout_marginStart="120dp"
+                android:layout_marginTop="430dp" />
+
+            <FrameLayout
+                android:layout_width="180dp"
+                android:layout_height="118dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="140dp"
+                android:background="@drawable/box_background">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="-40dp"
+                    android:padding="8dp"
+                    android:src="@drawable/icon" />
+
+                <TextView
+                    android:id="@+id/nOportunidadesAtivas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="75dp"
+                    android:layout_marginTop="37dp"
+                    android:padding="8dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#000000"
+                    android:textSize="22sp" />
+
+                <TextView
+                    android:id="@+id/text_oportunidades"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="80dp"
+                    android:padding="8dp"
+                    android:text="Oportunidades Negócio"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="15sp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="180dp"
+                android:layout_height="118dp"
+                android:layout_marginStart="215dp"
+                android:layout_marginTop="140dp"
+                android:background="@drawable/box_background">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="8dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="-40dp"
+                    android:src="@drawable/candidatura" />
+
+                <TextView
+                    android:id="@+id/nCandidaturasAtivas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="75dp"
+                    android:layout_marginTop="37dp"
+                    android:textSize="22sp"
+                    android:textColor="#000000"
+                    android:padding="8dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/text_optAtivas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textSize="15sp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="80dp"
+                    android:text="Candidaturas Ativas"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="180dp"
+                android:layout_height="118dp"
+                android:layout_marginStart="215dp"
+                android:layout_marginTop="300dp"
+                android:background="@drawable/box_background">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="8dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="-40dp"
+                    android:src="@drawable/baseline_content_paste_search_24" />
+
+                <TextView
+                    android:id="@+id/nVagas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="75dp"
+                    android:layout_marginTop="37dp"
+                    android:textSize="22sp"
+                    android:textColor="#000000"
+                    android:padding="8dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/text_vagasAtivas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textSize="15sp"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="80dp"
+                    android:text="Vagas Ativas"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            </FrameLayout>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@+id/frameLayout"
+            app:layout_constraintTop_toTopOf="@+id/frameLayout" />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <include layout="@layout/bottom_nav" />
+
+
+    <com.google.android.material.navigation.NavigationView
+        app:theme="@style/ActionButton"
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:headerLayout="@layout/nav_header"
+        app:menu="@menu/nav_menu"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        />
+
+
+</androidx.drawerlayout.widget.DrawerLayout>
+

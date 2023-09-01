@@ -1,0 +1,22 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+
+
+        <shape>
+            <corners android:radius="6dp" /> <!-- Adjust the radius value to change the roundness of the corners -->
+            <solid android:color="#7BB2E3" /> <!-- Change the color of the button -->
+        </shape>
+    </item>
+    <item android:state_focused="true">
+        <shape>
+            <corners android:radius="6dp" />
+            <solid android:color="#629CCF" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <corners android:radius="6dp" />
+            <solid android:color="#4390D3" />
+        </shape>
+    </item>
+</selector>
